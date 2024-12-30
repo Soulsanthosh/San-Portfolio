@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    // background-image: linear-gradient(to top,rgb(110, 110, 110),black);
+}
+.overall-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0px 40px 0px;
+}
+.overall-card h1{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+.card-1{
+    order: 3;
+}
+.card-2{
+    order: 2;
+}
+.card-3{
+    order: 1;
+}
+.card-1,.card-2,.card-3{
+    height: fit-content;
+    width:325px;
+    background-color: black;
+    color: white;   
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(35, 260, 54),-0px -0px 20px rgb(35,260,54);
+    padding: 20px;
+    transform-style: preserve-3d;
+    background-image: url("../public/Images/Bg1.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-1 img,.card-2 img,.card-3 img{
+    height: 225px;
+    width: 325px;
+    border-radius: 20px;
+}
+.card-1 p,.card-2 p,.card-3 p{
+    text-align: justify;
+    text-indent:15px;
+    font-size:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-1:hover,.card-2:hover,.card-3:hover{
+    transition: all 0.55s ease-in-out;
+    transform:rotate3d(0,0.5,0, 30deg);
+    background-position: 80% 20%;
+    box-shadow:0px 0px 80px rgb(35, 260, 54);
+    p{
+        color: rgb(0, 255, 255);
+    }
+    .see-more{
+        transform: translate3d(90px, 10px, 30px);
+        border: 5px solid rgb(0, 136, 255);
+        border-radius: 15px;
+        width: fit-content;
+        padding: 5px;
+        transition: all 0.5s ease-in-out;
+    }
+    h1{
+        color:red;
+    }
+}
+.see-more{
+    display: block;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.see-more a{
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+}

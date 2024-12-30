@@ -1,0 +1,156 @@
+.skills-body{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    width: 100%;
+}
+.total-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div ul>li{
+    padding: 0px 0px 15px 15px;
+}
+div h1{
+    text-align: center;
+}
+.front-end-deatils{
+    width: 220px;
+    height: fit-content;
+    color: rgb(240, 0, 240);
+    font-size: 20px;
+    border: 2px dashed rgb(240,0,240);
+    border-radius: 20px;
+    padding: 10px;
+}
+.front-end-deatils:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(240, 0, 240),-0px -0px 20px rgb(240, 0, 240);
+    color: white;
+    text-shadow:0px 0px 10px rgb(240, 0, 240),-0px -0px 10px rgb(240, 0, 240) ;
+    border:2px solid black;
+}
+.back-end-details{
+    width: 220px;
+    height: fit-content;
+    color: rgb(240, 0, 0);
+    font-size: 20px;
+    border: 2px dashed rgb(240, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+}
+.back-end-details:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(240, 0, 0),-0px -0px 20px rgb(240, 0, 0);
+    color: white;
+    text-shadow:0px 0px 10px rgb(240, 0, 0),-0px -0px 10px rgb(240, 0, 0) ;
+    border:2px solid black;
+}
+.version-control-details{
+    width: 220px;
+    height: fit-content;
+    color: rgb(0, 184, 240);
+    font-size: 20px;
+    border: 2px dashed rgb(0, 184, 240);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.version-control-details:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0, 184, 240),-0px -0px 20px rgb(0, 184, 240);
+    color: white;
+    text-shadow:0px 0px 10px rgb(0, 184, 240),-0px -0px 10px rgb(0, 184, 240) ;
+    border:2px solid black;
+}
+.rotate-div{
+    position: relative;
+    // border: 5px solid white;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    margin: 85px 0px;
+}
+.img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7,.img-8,.img-9,.img-10{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    offset-path: circle(250px);
+    offset-rotate: 0turn;
+    animation: moveImg 15s both infinite linear;
+}
+.img-1{
+    background-color: orangered;
+    box-shadow: 0px 0px 20px orangered,-0px -0px 20px orangered;
+}
+.img-2{
+    background-color: rgb(18, 144, 207);
+    box-shadow: 0px 0px 20px rgb(18, 144, 207),-0px -0px 20px rgb(18, 144, 207);
+}
+.img-3{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),-0px -0px 20px rgb(255, 255, 255);
+}
+.img-4{
+    background-color: rgb(105, 1, 105);
+    box-shadow: 0px 0px 20px rgb(105, 1, 105),-0px -0px 20px rgb(105, 1, 105);
+}
+.img-5{
+    background-color: rgb(252, 39, 39);
+    box-shadow: 0px 0px 20px rgb(252, 39, 39),-0px -0px 20px rgb(252, 39, 39);
+}
+.img-6{
+    background-color: rgb(255, 217, 0);
+    box-shadow: 0px 0px 20px rgb(255, 217, 0),-0px -0px 20px rgb(255, 217, 0);
+}
+.img-7{
+    background-color: rgb(0, 247, 255);
+    box-shadow: 0px 0px 20px rgb(0, 247, 255),-0px -0px 20px rgb(0, 247, 255);
+}
+.img-8{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255),-0px -0px 20px rgb(255, 255, 255);
+}
+.img-9{
+    background-color: rgb(0, 59, 0);
+    box-shadow: 0px 0px 20px rgb(0, 59, 0),-0px -0px 20px rgb(0, 59, 0);
+}
+.img-10{
+    background-color: white;
+    box-shadow: 0px 0px 20px white,-0px -0px 20px white;
+}
+@keyframes moveImg {
+    100%  { offset-distance: 100%; }
+}
+img:nth-child(2){
+    animation-delay: 1.5s;
+}
+img:nth-child(3){
+    animation-delay: 3s;
+}
+img:nth-child(4){
+    animation-delay: 4.5s;
+}
+img:nth-child(5){
+    animation-delay: 6s;
+}
+img:nth-child(6){
+    animation-delay: 7.5s;
+}
+img:nth-child(7){
+    animation-delay: 9s;
+
+}
+img:nth-child(8){
+    animation-delay: 10.5s;
+}
+img:nth-child(9){
+    animation-delay: 12s;
+}
+img:nth-child(10){
+    animation-delay: 13.5s;
+}
